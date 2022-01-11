@@ -21,7 +21,13 @@ const Header = () => {
         <HeaderItem title="SEARCH" Icon={SearchIcon} />
         <HeaderItem title="ACCOUNT" Icon={UserIcon} />
       </div>
-      <Image src={Logo} width={80} height={30} className="cursor-pointer" />
+      <Image
+        src={Logo}
+        width={80}
+        height={30}
+        className="cursor-pointer"
+        alt="Hulu"
+      />
     </header>
   );
 };
